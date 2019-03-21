@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python3.7 compilator.py $1 $2 -O3
