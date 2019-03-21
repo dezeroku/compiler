@@ -7,6 +7,10 @@ Running 'make' is necessary to compile interpreter, which is used in some optima
 
 It's not really the best Python you can write, it has some globals etc. but it gets the job done.
 
+PLY is used for lexing/parsing.
+
+spec.pdf contains language grammar, info etc. (in Polish).
+
 ## How to use
 ```
 python3 compilator.py input_name output_name
