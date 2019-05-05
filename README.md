@@ -16,6 +16,13 @@ spec.pdf contains language grammar, info etc. (in Polish).
 python3 compilator.py input_name output_name
 ```
 
+If you have source code in current directory, you can run dockerized version with something like:
+```
+docker run -v $(pwd):/usr/src/app/code image_name ./kompilator code/temp_2.imp code/result
+```
+
+Current directory has to be mounted as subfolder, otherwise it won't work.
+
 Run
 ```
 python3 compilator.py -h
