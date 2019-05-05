@@ -11,6 +11,15 @@ PLY is used for lexing/parsing.
 
 spec.pdf contains language grammar, info etc. (in Polish).
 
+## Build
+
+You can build Docker image by calling
+```
+docker build -t image_name .
+```
+
+when in repo root directory.
+
 ## How to use
 ```
 python3 compilator.py input_name output_name
@@ -28,3 +37,17 @@ Run
 python3 compilator.py -h
 ```
 for more options.
+
+## Tests
+Run tests either by calling 
+```
+pytest
+```
+
+in case of normal installation, or
+```
+docker run image_name python3.7 -m pytest
+
+```
+
+in case of dockerized version.
