@@ -1,5 +1,6 @@
-Compiler project for Formal Languages & Translation Techniques 2018
+[![Build Status](https://travis-ci.org/d0ku/compiler.svg?branch=master)](https://travis-ci.org/d0ku/compiler)
 
+Compiler project for Formal Languages & Translation Techniques 2018
 ## About
 It's written in Python3, all required libraries can be installed using setup.sh (Ubuntu 18.04).
 
